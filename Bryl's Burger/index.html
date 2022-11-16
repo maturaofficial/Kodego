@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryl's Burger</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-warning">
+
+
+  <nav class="navbar navbar-expand-lg navbar-warning bg-warning fixed-top">
+     
+    <div class="container">
+      
+      <a class="navbar-brand" href="#">Bryl's Burger <img id="icon" src="https://cdn-icons-png.flaticon.com/512/877/877951.png" alt="" srcset=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="Burger" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Burgers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Cheese Burger</a></li>
+              <li><a class="dropdown-item" href="#">Cheesy Bacon</a></li>
+              <li><a class="dropdown-item" href="#">Double Patty</a></li>
+              <li><a class="dropdown-item" href="#">Ultimate Burger</li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Drinks
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Lemonade</a></li>
+              <li><a class="dropdown-item" href="#">Iced Tea</a></li>
+              <li><a class="dropdown-item" href="#">Milk Tea</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              New Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#"></a>Original Shawarma</a></li>
+              <li><a class="dropdown-item" href="#"></a>Shawarma Overload</a></li>
+              <li><a class="dropdown-item" href="#"></a>Shawarma Rice</li>
+              <li><a class="dropdown-item" href="#"></a>Beef Mushroom Pizza</li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Cart</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- <div class="container"> -->
+  
+      <!-- Carousel -->
+    <div id="demo" class="carousel slide container-md" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img1.png" alt="Los Angeles" class="d-block carousel-img">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/premium-photo/american-burger-with-fried-potatoes_135427-6432.jpg?w=740" alt="Chicago" class="d-block carousel-img">
+
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" alt="New York" class="d-block carousel-img" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Pure 100% Beef Burger</h3>
+          <p> The steam from the juices of the beef and onions is locked into the buns. It’s just pure, in a burger sense.</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+  <div class="container pb-5 pt-4">
+    <h1 style="text-align:center">New Menu</h1>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://cdn.ngnw.ph/images/blog/images/shawarmapizza.jpg" class="card-img-top" alt="..." >
+            <div class="card-body">
+              <h5 class="card-title">Shawarma Overload Pizza</h5>
+              <p class="card-text">Think of it as a combination of Italian pizza and Arabic shawarma. This pizza has a topping of black olives, mozzarella cheese, red onion, middle eastern spiced marinated chicken that is baked in the oven.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://images.spot.im/v1/production/bzy1hcir54vxgkizdwoq" class="card-img-top card-img-h">
+            <div class="card-body">
+              <h5 class="card-title">Origanal Shawarma</h5>
+              <p class="card-text">Shawarma is marinated with various seasonings and spices such as cumin, turmeric, and paprika. It is made by stacking thinly sliced meat, typically lamb, beef, or chicken, on a large rotating skewer or cone.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://bxtraoutlet.delivery/wp-content/uploads/2021/04/CHICKEN-SHAWARMA-RICE-scaled.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Shawarma Rice</h5>
+              <p class="card-text">A Filipino dish inspired by the Middle Eastern Kebab where tapa style grilled beef is served with a safflower and margarine seasoned rice together with lettuce, cucumber and tomatoes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://items-images-production.s3.us-west-2.amazonaws.com/files/67c58cdc5f2611ba81411658e52d1c685652f921/original.jpeg" class="card-img-top card-img-h" >
+            <div class="card-body">
+              <h5 class="card-title">Beef Mushroom Pizza</h5>
+              <p class="card-text"> Its meaty taste and chewy texture make for a satisfying ingredient for tomato-based, white-sauce, pesto sauce, artisanal, and many other types of pizza.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div> 
+<!-- __________________________________________________________________________________________ -->
+
+<div class="container pb-5 pt-4">
+  <h1 style="text-align:center">Burgers</h1>
+  <hr>
+  <div class="row  row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://www.foodrepublic.com/wp-content/uploads/2012/03/033_FR11785-700x466.jpg" class="card-img-top" alt="..." >
+          <div class="card-body">
+            <h5 class="card-title">Cheese Burger</h5>
+            <p class="card-text">A cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty. The cheese is usually added to the cooking hamburger patty shortly before serving, which allows the cheese to melt.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://images-gmi-pmc.edge-generalmills.com/6467a87b-0186-410b-bf19-96ed4dc32936.jpg" class="card-img-top" style="height: 25vw;">
+          <div class="card-body">
+            <h5 class="card-title">Cheesy Bacon Burger</h5>
+            <p class="card-text">Each Quarter Pounder® with Cheese Bacon burger features thick-cut applewood smoked bacon atop a ¼ lb. * of 100% McDonald's fresh beef that's cooked when you order. It's a hot, deliciously juicy bacon cheeseburger, seasoned with just a pinch of salt and pepper and sizzled on our flat iron grill.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://businessmirror.com.ph/wp-content/uploads/2022/08/Zarks-Ultimate-Burger.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ultimate Burger</h5>
+            <p class="card-text">It starts with a big beef patty, then that's topped with sharp cheddar cheese, roasted sweet potato, caramelized onions, bacon and finally avocado slices.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/side-view-double-cheeseburger-with-grilled-beef-patties-cheese-lettuce-leaf-burger-buns_141793-4883.jpg" class="card-img-top" style="height: 26vw;" >
+          <div class="card-body">
+            <h5 class="card-title">Double Patty Burger</h5>
+            <p class="card-text">Double meat means the cook takes two portions of same size and smushes them together. This practice goes back to the beginning of the hamburger—earlier than White Castle even. In the interest of speed and timeliness, places would make small burgers, and they'd portion the beef.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> 
+
+<!-- _______________________________________________________________________________________________________ -->
+
+<div class="container pb-5 pt-4">
+  <h1 style="text-align:center">Drinks</h1>
+  <hr>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9vOnt-qwf-CUx1YOF-kaNgOJ3US5RlB_iDQ&usqp=CAU" class="card-img-top" alt="..." >
+          <div class="card-body">
+            <h5 class="card-title">Lemonade</h5>
+            <p class="card-text">Lemonade is a sweetened lemon-flavored beverage. There are varieties of lemonade found throughout the world. In North America and South Asia, cloudy still lemonade is the most common variety. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/delish-210419-iced-tea-02-landscape-jg-1619020612.jpg" class="card-img-top" style="height: 23vw;">
+          <div class="card-body">
+            <h5 class="card-title">Iced Tea</h5>
+            <p class="card-text">Iced tea is a form of cold tea. Though it is usually served in a glass with ice, it can refer to any tea that has been chilled or cooled. It may be sweetened with sugar or syrup.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://cdn-cohenmedical2.pressidium.com/wp-content/uploads/2020/06/soda3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Soda</h5>
+            <p class="card-text">A soft drink is a drink that usually contains water, a sweetener, and a natural and/or artificial flavoring. The sweetener may be a sugar, high-fructose corn syrup, fruit juice, a sugar substitute, or some combination of these. Soft drinks may also contain caffeine, colorings, preservatives, and/or other ingredients.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/8f1e6c865e5b4ef0a1f8d15b3f676202/BFV69042_HowToMakeBobaFromScratch_JP_Final_YT.jpg?resize=1000:*&output-format=auto&output-quality=auto" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">Milk Tea</h5>
+            <p class="card-text">To fill in the gap, they developed a drink that we can be considered a snack and beverage simultaneously, the milk tea. Milk tea is a refreshing flavored iced tea with tapioca balls at the bottom. Milk is mixed with a tea base, fruits, and flavored syrups, and later, the tapioca balls are added.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> 
+
+
+     <footer class="bg-warning pt-3 pb-2">
+       <h6 style="color: black; text-align:center">
+        <p>Location : Bonifacio High Street, Taguig</p>
+        <p>We're open Tuesdays to Sundays from 1:00 PM to 2:00 AM</p>       
+      </h6>
+       
+     </footer> 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>  

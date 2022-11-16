@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineMag</title>
+    <style>
+        header {
+    background: #63f199e7;
+    text-align: center;
+    padding-top: 50%;
+    font-size: 50px;
+    padding: 20px;
+    
+    font-weight: bold;
+}
+
+         @media only screen and (max-width: 800px) {
+            header {
+                background-color: blue
+            } 
+
+            #three{
+                display: none;
+            }
+            
+        }
+        @media only screen and (max-width: 360px) {
+            header {
+                background-color: red
+            }
+
+            #three {
+                display: none;
+            }
+            #two{
+                display: none;
+            }
+        }
+        @media only screen and (min-width: 768px){
+            header{
+                background-color: orange;
+            }
+        }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+.left{
+  width: 30%;
+}
+.right{
+    width: 35%;
+}
+.middle {
+  width: 35%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.border {
+            border: 2px solid green;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="Title">
+        Online Magazine
+    </header>
+    <nav>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+    </nav>
+    <section class="row">                  
+            <article id="one">
+            <div class="column left border">
+                <h1>Lifestyle</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit laborum, id culpa aperiam dicta velit consequuntur fugiat ad hic incidunt. Laborum exercitationem porro necessitatibus quos eum optio id ad sequi!</p>
+            </div>
+            </article>
+
+            <article id="two">
+            <div class="column middle border">
+                <h1>Business</h1>
+                <p>Vivamus venenatis velit nec neque<br />
+                    ultricies, eget elementum magna<br />
+                    tristique.
+            </div>
+            </article>
+            <article id="three">
+            <div class="column right border">
+                <h1>Sports</h1>
+           <p>Quisque vehicula, risus eget aliquam<br />
+            placerat, purus leo tincidunt eros, eget<br />
+            luctus quam orci in velit.</p>
+            </article>
+          </div>
+    </section>   
+</body>
+</html>
